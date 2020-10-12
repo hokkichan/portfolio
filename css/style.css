@@ -33,7 +33,7 @@ nav {
   justify-content: flex-end;
   background-color: #004680;
   z-index: 1;
-  overflow: auto;
+  overflow: hidden;
 }
 
 ul {
