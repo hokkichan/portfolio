@@ -9,9 +9,15 @@
   text-align: center;
   height: 100vh;
   background-color: white;
-  color: white;
   size: 150%;
 }
+
+#typed {
+  color: #002F6C;
+  font-size: 120%;
+
+}
+
 
 div h1 {
   padding-top: 50vh;
