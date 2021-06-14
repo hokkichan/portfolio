@@ -7,7 +7,6 @@
 
 #welcome-section {
   text-align: center;
-  height: 100vh;
   background-color: white;
   size: 150%;
 }
@@ -120,7 +119,11 @@ button {
 }
 
 @media only screen and (max-width: 600px) {
-  #container {
+#welcome-section {
+  height: 50vh;
+}
+
+#container {
       justify-content: center;
   }
   
@@ -134,8 +137,12 @@ button {
 }
 
 @media only screen and (min-width: 601px) {
+
+#welcome-section {
+  height: 50vh;
+}
   
-  #container {
+#container {
       justify-content: center;
   }
   
@@ -149,7 +156,12 @@ button {
 }
 
 @media only screen and (min-width: 966px) {
-  #container {
+
+#welcome-section {
+  height: 100vh;
+}
+
+#container {
     justify-content: center;
   }
   
